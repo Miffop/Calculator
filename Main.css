@@ -1,0 +1,78 @@
+body{
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    font-size: 100px;
+    color:#044857;
+    text-shadow: 4px 4px 0px #022027;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+article{
+    font-size: 30px;
+    font-weight: normal;
+    color:#025669;
+}
+table{
+    table-layout: fixed;
+    width: 50%;
+    height: 700px;
+    border-spacing: 10px;
+    border-collapse: separate;
+    border-style: none;
+    border-radius: 20px;
+    background-color: darkcyan;
+    float: left;
+}
+table td{
+    border-radius: 10px;
+    border-style: none;
+    background-color: #b3f1ff;
+    
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    
+    font-size: 50px;
+    cursor:pointer;
+}
+table td:hover{
+    color:rgb(181, 255, 255);
+    background-color: rgb(0, 97, 97);
+}
+table #delClick{
+    background-color: #076363;
+    color:#b3f1ff;
+}
+table #delClick:hover{
+    background-color: #79e0f7;
+    color:#004d4d;
+}
+table #Screen{
+    height: 100px;
+    text-align: right;
+    background-color: #076363;
+    color:#b3f1ff;
+    cursor: default;
+}
+aside{
+    width: 40%;
+    height: 700px;
+    overflow-y: auto;
+    float: right;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    background-color: rgb(170, 196, 245);
+    margin-right: 5px;
+}
+aside ul{
+    list-style: square;
+}
+aside ul li{
+    text-align: right;
+    padding: 10px;
+}
